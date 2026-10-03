@@ -20,7 +20,7 @@ If the package is not yet visible on Packagist from your network, install it str
 ```json
 {
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/alejandropulley/omnifox-sdk-php" }
+        { "type": "vcs", "url": "https://github.com/omnifoxapp-code/omnifox-sdk-php" }
     ],
     "require": { "omnifox/sdk": "^0.4" }
 }
