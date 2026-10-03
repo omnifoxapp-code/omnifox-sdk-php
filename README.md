@@ -2,7 +2,7 @@
 
 Official PHP SDK for the [Omnifox.io](https://omnifox.io) REST API.
 
-Omnifox is an omnichannel customer messaging platform (WhatsApp, Instagram, Messenger, Telegram, TikTok, email, webchat, SMS) with a shared inbox, AI agents, CRM, boards, calendar, product catalog, orders and quotes. This SDK wraps the v1 REST API documented at <https://omnifox.io/docs/api>.
+Omnifox is an omnichannel customer messaging platform (WhatsApp, Instagram, Messenger, Telegram, TikTok, email, webchat, SMS) with a shared inbox, AI agents, CRM, boards, calendar, product catalog, orders and quotes. This SDK wraps the v1 REST API documented at <https://omnifox.io/docs>.
 
 - PHP 8.1+, PSR-18 transport (Guzzle by default), PSR-4 autoloading.
 - Same 25 resources and method names as the [Node](https://www.npmjs.com/package/@omnifox/sdk) and [Python](https://pypi.org/project/omnifox/) SDKs, in idiomatic camelCase PHP.
@@ -15,7 +15,7 @@ Omnifox is an omnichannel customer messaging platform (WhatsApp, Instagram, Mess
 composer require omnifox/sdk
 ```
 
-If the package is not yet visible on Packagist from your network, install it straight from GitHub:
+The package is on Packagist: <https://packagist.org/packages/omnifox/sdk>. If Packagist is not reachable from your network, install it straight from GitHub:
 
 ```json
 {
